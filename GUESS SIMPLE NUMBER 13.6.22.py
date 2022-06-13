@@ -12,10 +12,9 @@ def main():
         guess = int(input("Pick a number between 1 to 10: "))
         
         if x == guess:
-            print("You genius!")
-        elif x > guess:
-            print("Try a bigger number.")
-        elif x < guess:
-            print("Try a smaller number.")
+          print("You genius!")
+            break
+        else: 
+            print("Try Again")
 
 main()
